@@ -2,11 +2,17 @@
   "name": "vercel",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "hello.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@vercel/node": "^3.0.26"
+  }
 }
